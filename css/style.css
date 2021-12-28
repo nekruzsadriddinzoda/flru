@@ -96,6 +96,8 @@ main h1{
     left: 0; /* Размещаем у левого края */
     width: calc(95% - 20px); /* Ширина содержимого */
     display: none; /* Прячем вкладку */
+	   font-family:'Arial', sans-serif;
+	line-height:1.5;
    }
    .tab :checked + .tab-title {
     position: relative; /* Относительное позиционирование */
