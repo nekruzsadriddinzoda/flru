@@ -1,0 +1,109 @@
+nav{
+	padding-top:20px;
+	padding-bottom:20px;
+	background: rgb(10,109,244);
+    background: linear-gradient(190deg, rgba(10,109,244,1) 0%, rgba(28,39,232,1) 21%, rgba(79,90,255,1) 45%, rgba(60,70,213,1) 65%, rgba(10,26,244,1) 87%);
+	width:100%;
+}
+a{
+	color:#fff;
+}
+ul {
+	display:flex;
+	
+}
+ul li{
+	list-style-type:none;
+	margin-top:1%;
+}
+ul li a:hover{
+	cursor:pointer;
+	text-decoration:none;
+}
+ul li a{
+	margin-right:20px;
+	margin-left:90px;
+	font-family:'Arial', sans-serif;
+	font-weight:20px;
+	text-decoration:underline;
+	
+}
+.logo{
+	font-family:'Arial', sans-serif;
+	font-weight:40px;
+	font-size:40px;
+	margin-left:1%;
+}
+.undernav{
+	
+	padding-top:5px;
+	padding-bottom:5px;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(218,218,224,1) 0%);
+}
+.undernav p{
+	margin-left:20px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+/*footer{
+	margin-top:70%;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: rgb(10,109,244);
+    background: linear-gradient(190deg, rgba(10,109,244,1) 0%, rgba(28,39,232,1) 21%, rgba(79,90,255,1) 45%, rgba(60,70,213,1) 65%, rgba(10,26,244,1) 87%);
+	width:100%;
+	font-family:'Arial', sans-serif;
+	font-weight:40px;
+	
+	color:#fff;
+*/	
+}
+footer p{
+	font-family:'Arial', sans-serif;
+	font-weight:40px;
+	font-size:20px;
+	margin-left:1%;
+	margin-top:1%;
+}
+footer ul li{
+	margin-bottom:1%;
+}
+main h1{
+	font-family:'Arial', sans-serif;
+	margin-left:20px;
+}
+.tabs {
+	margin-left:20px;
+    position: relative; /* Относительное позиционирование */
+   }
+   .tab, .tab-title {
+    display: inline-block; /* Выстраиваем по горизонтали */
+   }
+   .tab input[type="radio"] { display: none; }
+   .tab-title {
+    background: #ccc; /* Цвет фона */
+    padding: 5px 10px; /* Поля вокруг текста */
+    border: 1px solid #666; /* Параметры рамки */
+    border-bottom: none; /* Снизу линию убираем */
+   }
+   .tab-content {
+    position: absolute; /* Абсолютное позиционирование */
+    border: 1px solid blue; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    left: 0; /* Размещаем у левого края */
+    width: calc(95% - 20px); /* Ширина содержимого */
+    display: none; /* Прячем вкладку */
+   }
+   .tab :checked + .tab-title {
+    position: relative; /* Относительное позиционирование */
+    background: blue; /* Цвет фона */
+	color:white;
+    top: 1px; /* Сдвигаем вниз */
+    z-index: 1; /* Отображаем поверх содержимого */
+   }
+   .tab :checked ~ .tab-content {
+    display: block; /* Показываем активную вкладку */
+   }
